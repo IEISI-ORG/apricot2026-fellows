@@ -291,7 +291,7 @@ You cannot patch a bug you cannot see. If your culture punishes people for causi
 </div>
 
 > **Reflective Prompt:**
-> "When a junior engineer breaks production, is their first instinct to hide the evidence or broadcast the error? What does that tell you about your **ging culture**?"
+> "When a junior engineer breaks production, is their first instinct to hide the evidence or broadcast the error? What does that tell you about your **Culture**?"
 
 ---
 
