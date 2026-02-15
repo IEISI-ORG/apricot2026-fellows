@@ -44,4 +44,5 @@ For any commercial use of this content, including but not limited to:
 
 All rights not expressly granted under this license are reserved by the author. This license does not transfer ownership or copyright of the original work.
 
-**© 2025 Terry Sweetser**
+**© 2026 Terry Sweetser tcs@ieisi.org**
+
