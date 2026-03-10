@@ -4,7 +4,7 @@ theme: gaia
 class: lead
 transition: none
 backgroundColor: #fff
-footer: TCS / APRICOT 2026 / FELLOWS WORKSHOP
+footer: IEISI.ORG / From Network Engineer to CTO
 paginate: true
 color: #333
 style: |
