@@ -1,0 +1,127 @@
+<svg viewBox="0 0 1000 900" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style>
+            .bg-fill { fill: #ffffff; }
+            .title {
+                font-family: 'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', sans-serif;
+                font-size: 44px;
+                text-anchor: middle;
+                fill: #000000;
+            }
+            .text-main {
+                font-family: 'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', sans-serif;
+                font-size: 22px;
+                text-anchor: middle;
+                fill: #000000;
+            }
+            .text-action {
+                font-family: 'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', sans-serif;
+                font-size: 20px;
+                text-anchor: middle;
+                fill: #000000;
+            }
+            .text-center {
+                font-family: 'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', sans-serif;
+                font-size: 18px;
+                text-anchor: middle;
+                fill: #000000;
+            }
+            .line {
+                fill: none;
+                stroke: #000000;
+                stroke-width: 3.5;
+                stroke-linecap: round;
+                stroke-linejoin: round;
+            }
+            
+            /* Swash Colors */
+            .swash-pink { fill: #f2d5d8; }
+            .swash-blue { fill: #d0e6e8; }
+            .swash-yellow { fill: #fae6cd; }
+            
+            .center-outer { fill: #f4dada; }
+            .center-inner { fill: #db9f9c; }
+        </style>
+    </defs>
+
+    <!-- Background -->
+    <rect width="100%" height="100%" class="bg-fill" />
+
+    <!-- ================= BACKGROUND SWASHES ================= -->
+    <g id="swashes">
+        <!-- Complex (Top Left) -->
+        <path class="swash-pink" d="M 150 210 C 220 190, 320 190, 380 210 C 400 240, 390 270, 370 290 C 280 300, 180 300, 130 280 C 110 250, 120 220, 150 210 Z" />
+        <path class="swash-blue" d="M 130 330 C 220 320, 320 320, 410 330 C 420 345, 410 365, 400 370 C 280 380, 180 380, 120 365 C 110 350, 115 340, 130 330 Z" />
+        <path class="swash-yellow" d="M 140 380 C 220 370, 320 370, 400 380 C 410 400, 400 420, 390 425 C 280 435, 180 435, 130 420 C 120 400, 125 390, 140 380 Z" />
+
+        <!-- Complicated (Top Right) -->
+        <path class="swash-pink" d="M 600 210 C 680 190, 800 190, 860 210 C 880 240, 870 270, 850 290 C 760 300, 640 300, 580 280 C 560 250, 570 220, 600 210 Z" />
+        <path class="swash-blue" d="M 570 330 C 680 320, 820 320, 900 330 C 910 345, 900 365, 890 370 C 760 380, 620 380, 560 365 C 550 350, 555 340, 570 330 Z" />
+        <path class="swash-yellow" d="M 600 380 C 680 370, 800 370, 860 380 C 870 400, 860 420, 850 425 C 740 435, 640 435, 590 420 C 580 400, 585 390, 600 380 Z" />
+
+        <!-- Chaotic (Bottom Left) -->
+        <path class="swash-pink" d="M 150 620 C 220 600, 320 600, 380 620 C 400 650, 390 680, 370 700 C 280 710, 180 710, 130 690 C 110 660, 120 630, 150 620 Z" />
+        <path class="swash-blue" d="M 140 740 C 220 730, 320 730, 400 740 C 410 755, 400 775, 390 780 C 280 790, 180 790, 130 775 C 120 760, 125 750, 140 740 Z" />
+        <path class="swash-yellow" d="M 140 790 C 220 780, 320 780, 400 790 C 410 810, 400 830, 390 835 C 280 845, 180 845, 130 830 C 120 810, 125 800, 140 790 Z" />
+
+        <!-- Clear (Bottom Right) -->
+        <path class="swash-pink" d="M 580 620 C 680 600, 820 600, 880 620 C 900 650, 890 680, 870 700 C 760 710, 620 710, 560 690 C 540 660, 550 630, 580 620 Z" />
+        <path class="swash-blue" d="M 550 740 C 680 730, 840 730, 920 740 C 930 755, 920 775, 910 780 C 760 790, 600 790, 530 775 C 520 760, 535 750, 550 740 Z" />
+        <path class="swash-yellow" d="M 600 790 C 680 780, 800 780, 860 790 C 870 810, 860 830, 850 835 C 740 845, 640 845, 590 830 C 580 810, 585 800, 600 790 Z" />
+    </g>
+
+    <!-- ================= CENTER REGION ================= -->
+    <g id="center">
+        <!-- Outer light pink diamond -->
+        <path class="center-outer" d="M 500 370 C 515 410, 525 435, 560 450 C 525 465, 515 490, 500 530 C 485 490, 475 465, 440 450 C 475 435, 485 410, 500 370 Z" />
+        <!-- Inner dark pink blob -->
+        <path class="center-inner" d="M 480 440 C 490 430, 510 430, 515 445 C 525 460, 510 470, 495 470 C 480 470, 470 455, 480 440 Z" />
+    </g>
+
+    <!-- ================= FRAMEWORK LINES ================= -->
+    <g id="lines">
+        <!-- Top Divider -->
+        <path class="line" d="M 460 30 C 470 150, 490 280, 500 370" />
+        <!-- Right Divider -->
+        <path class="line" d="M 950 460 C 800 510, 650 480, 560 450" />
+        <!-- Left Divider -->
+        <path class="line" d="M 50 440 C 200 500, 350 480, 440 450" />
+        
+        <!-- Bottom Divider & The Fold/Cliff Hook -->
+        <path class="line" d="M 500 530 C 510 650, 490 750, 460 830 C 430 860, 410 900, 470 900 C 520 900, 530 860, 500 840" />
+    </g>
+
+    <!-- ================= TEXT ELEMENTS ================= -->
+    <g id="text">
+        <!-- Center Text -->
+        <text x="500" y="455" class="text-center">Confusion</text>
+
+        <!-- Complex (Top Left) -->
+        <text x="260" y="170" class="title">Complex</text>
+        <text x="260" y="235" class="text-main">Enabling constraints</text>
+        <text x="260" y="275" class="text-main">Loosely coupled</text>
+        <text x="260" y="355" class="text-action">probe-sense-respond</text>
+        <text x="260" y="410" class="text-main">Emergent Practice</text>
+
+        <!-- Complicated (Top Right) -->
+        <text x="740" y="170" class="title">Complicated</text>
+        <text x="740" y="235" class="text-main">Governing constraints</text>
+        <text x="740" y="275" class="text-main">Tightly coupled</text>
+        <text x="740" y="355" class="text-action">sense-analyse-respond</text>
+        <text x="740" y="410" class="text-main">Good Practice</text>
+
+        <!-- Chaotic (Bottom Left) -->
+        <text x="260" y="580" class="title">Chaotic</text>
+        <text x="260" y="645" class="text-main">Lacking constraint</text>
+        <text x="260" y="685" class="text-main">De-coupled</text>
+        <text x="260" y="765" class="text-action">act-sense-respond</text>
+        <text x="260" y="820" class="text-main">Novel Practice</text>
+
+        <!-- Clear (Bottom Right) -->
+        <text x="740" y="580" class="title">Clear</text>
+        <text x="740" y="645" class="text-main">Tightly constrained</text>
+        <text x="740" y="685" class="text-main">No degrees of freedom</text>
+        <text x="740" y="765" class="text-action">sense-categorise-respond</text>
+        <text x="740" y="820" class="text-main">Best Practice</text>
+    </g>
+</svg>
